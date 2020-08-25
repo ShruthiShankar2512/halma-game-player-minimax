@@ -1,7 +1,7 @@
-## Halma Game Player - CSCI561 
+## Halma Game Player - CSCI561
 The rules of the Halma Game, as explained in the pdf (`hw2.pdf` as well as `hw-addendum.pdf`) are encoded and implemented from scratch.  
 There are two versions, one is a random move picker and an optimal move picker, where the optimal move picker uses the minimax algorithm to look ahead and then pick an optimal move.   
-The program `game_player.py` reads the input file, uses the algorithm to figure out the next move, and returns the next move in the output file. 
+The program `game_player_optimal.py` reads the input file, uses the algorithm to figure out the next move, and returns the next move in the output file.
 The input and output file formats are as described.
 
 ### Implementation details:
